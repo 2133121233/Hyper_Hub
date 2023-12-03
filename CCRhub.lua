@@ -4,16 +4,20 @@ local PhantomForcesWindow = Library:NewWindow("CCR+ Hub V2")
 
 local Bladeball = PhantomForcesWindow:NewSection("BladeBall")
 
-Bladeball:CreateToggle("PARRY V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
+Bladeball:CreateToggle("PARRY V1",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
 end)
 
-Bladeball:CreateToggle("SPAM V1", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
+Bladeball:CreateToggle("SPAM V1",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/DonGabrielle/AutoDetectV4/main/MainBalls"))()
 end)
 
-Bladeball:CreateToggle("SPAM V2", function()loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
+Bladeball:CreateToggle("SPAM V2",
+function()loadstring(game:HttpGet("https://pastebin.com/raw/t2391h1A"))()
 end)
 
-Bladeball:CreateButton("REDzHUB", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
+Bladeball:CreateButton("REDzHUB",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BladeBall/main/eng"))()
 end)
 
 Bladeball:CreateButton("DetectV1",
