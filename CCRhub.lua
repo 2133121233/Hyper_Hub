@@ -1,6 +1,6 @@
 local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
 
-local PhantomForcesWindow = Library:NewWindow("CCR+ Hub V2")
+local PhantomForcesWindow = Library:NewWindow("CCR+ Hub V3")
 
 local Bladeball = PhantomForcesWindow:NewSection("BladeBall")
 
@@ -34,6 +34,10 @@ Bloxf:CreateButton("Annie v1",
 function()loadstring(game:HttpGet("https://raw.githubusercontent.com/Anniecuti/Free-Scr/main/Annie-Hub.lua"))() 
 end)
 
-Bloxf:CreateToggle("REDz Blf",
+Bloxf:CreateButton("REDz Blf",
 function()loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))() 
+end)
+
+Bloxf:CreateButton("Sky hub",
+function()loadstring(game:HttpGet("https://raw.githubusercontent.com/SkyLoLand777/NotifyVip/main/SkyNotifyPriv.lua"))() 
 end)
