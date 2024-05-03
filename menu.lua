@@ -1,3 +1,4 @@
+toclipboard("https://www.discord.gg/v8HuUR9dP8") -- or use dsc.gg/hyperscript
 local PlaceId = game.PlaceId
 if PlaceId == 13772394625 then -- Blade ball
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bladeball.lua"))()
