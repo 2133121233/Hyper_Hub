@@ -1,6 +1,6 @@
 local PlaceId = game.PlaceId
-if PlaceId == 13772394625 then -- Blade
-    loadstring(game:HttpGet("a"))()
+if PlaceId == 13772394625 then -- Blade ball
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bladeball.lua"))()
 elseif PlaceId == 0000000000 then -- Vazio
     loadstring(game:HttpGet("a"))()
 elseif PlaceId == 2753915549 then -- Blox s1
