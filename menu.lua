@@ -22,7 +22,6 @@ Anti = hookmetamethod(game, "__namecall", function(self, ...)
             Text = "you have banned or kicked, hyper hub bypassed it!", 
 
             Button1 = "I understand!",
-            Duration = 999
            })
         end
         return Anti(self, ...)
