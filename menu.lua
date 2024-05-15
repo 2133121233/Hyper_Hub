@@ -16,11 +16,12 @@ getgenv().Anti = true -- Re-Execute if you change it
 local Anti
 Anti = hookmetamethod(game, "__namecall", function(self, ...)
         if self == plr and getnamecallmethod():lower() == "kick" and getgenv().Anti then
-            return warn("[HYPER-HUB-SYS] Tentativa de kick")
+            return warn("[ANTI-KICK] Ant Kick funcionou")
         end
         return Anti(self, ...)
     end)
--- Scripts
+
+-- games
 toclipboard("https://www.discord.gg/v8HuUR9dP8") -- or use dsc.gg/hyperscript
 local PlaceId = game.PlaceId
 if PlaceId == 13772394625 then -- Blade ball
@@ -36,6 +37,5 @@ elseif PlaceId == 7449423635 then -- Blox s3
 elseif PlaceId == 5210095481 then -- Omni x
     loadstring(game:HttpGet("a"))()
 end
--- Print place
-print("Placeid:")
+-- print placeid
 print(PlaceId)
