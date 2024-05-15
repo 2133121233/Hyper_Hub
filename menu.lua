@@ -17,12 +17,6 @@ local Anti
 Anti = hookmetamethod(game, "__namecall", function(self, ...)
         if self == plr and getnamecallmethod():lower() == "kick" and getgenv().Anti then
             return warn("[HYPER-HUB-SYS] Tentativa de kick")
-            game:GetService("StarterGui"):SetCore("SendNotification",{
-            Title = "DETECTED!",
-            Text = "you have banned or kicked, hyper hub bypassed it!", 
-
-            Button1 = "I understand!",
-           })
         end
         return Anti(self, ...)
     end)
