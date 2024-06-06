@@ -8,15 +8,8 @@
 ::: ##:::: ##:::. ##:. #######:: ########:::: ##:::: ##:::: ##:::: ##:::::::: ########: ##:::. ##:::: ##:::: ##:. #######:: ########::
 :::..:::::..:::::..:::.......:::........:::::..:::::..:::::..:::::..:::::::::........::..:::::..:::::..:::::..:::.......:::........:::
 ]]
--- Ant afk
-    game:GetService("Players").LocalPlayer.Idled:connect(function()
-		game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-		wait(1)
-		game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-	end)
-  print("ant afk")
 -- games
-toclipboard("https://www.discord.gg/v8HuUR9dP8") -- or use dsc.gg/hyperscript
+--https://www.discord.gg/v8HuUR9dP8 -- or use dsc.gg/hyperscript
 local PlaceId = game.PlaceId
 if PlaceId == 13772394625 then -- Blade ball
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bladeballfix.lua"))()
