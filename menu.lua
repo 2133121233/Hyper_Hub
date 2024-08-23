@@ -15,8 +15,7 @@
 		game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 	end)
  print("ant afk")
--- copy
-toclipboard("https://www.discord.gg/v8HuUR9dP8") -- or use dsc.gg/hyperscript
+-- https://www.discord.gg/v8HuUR9dP8 -- or use dsc.gg/hyperscript
 -- games
 if not _G.hyperloaded then
 local PlaceId = game.PlaceId
