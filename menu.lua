@@ -39,6 +39,8 @@ end
 _G.hyperloaded = true
 -- ui loader/lib loader 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/uilib.txt"))()
+wait(10)
+toclipboard(https://dsc.gg/hyperscript)
 else 
     print("loaded")
 end
