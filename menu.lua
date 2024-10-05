@@ -15,7 +15,7 @@
 		game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
 	end)
  print("ant afk")
--- https://www.discord.gg/v8HuUR9dP8 -- or use dsc.gg/hyperscript
+toclipboard(https://www.discord.gg/v8HuUR9dP8) -- or use dsc.gg/hyperscript
 -- games
 local PlaceId = game.PlaceId
 if PlaceId == 13772394625 then -- Blade ball
@@ -33,7 +33,10 @@ elseif PlaceId == 7449423635 then -- Blox s3
     repeat wait() until game:IsLoaded()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bloxv2.lua"))()
 elseif PlaceId == 16044264830 then -- Vazio
+    local syn = getgenv().syn
+    getgenv().syn = false
     loadstring(game:HttpGet("b"))()
+    getgenv().syn = syn
 end
 
 -- ui loader/lib loader 
