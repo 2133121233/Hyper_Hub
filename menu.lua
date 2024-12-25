@@ -9,13 +9,11 @@
 :::..:::::..:::::..:::.......:::........:::::..:::::..:::::..:::::..:::::::::........::..:::::..:::::..:::::..:::.......:::........:::
 ]]
 -- ant afk
-    game:GetService("Players").LocalPlayer.Idled:connect(function()
-     	game:GetService("VirtualUser"):Button2Down(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-		wait(1)
-		game:GetService("VirtualUser"):Button2Up(Vector2.new(0, 0), workspace.CurrentCamera.CFrame)
-	end)
- print("ant afk")
-toclipboard(https://www.discord.gg/v8HuUR9dP8) -- or use dsc.gg/hyperscript
+if getgenv().syn then
+local syn = getgenv().syn
+getgenv().syn = false
+end
+toclipboard(https://www.dsc.gg/nyx-hub) -- or use dsc.gg/hyperscript
 -- games
 local PlaceId = game.PlaceId
 if PlaceId == 13772394625 then -- Blade ball
@@ -25,21 +23,18 @@ elseif PlaceId == 16281300371 then -- Vazio
     loadstring(game:HttpGet("a"))()
 elseif PlaceId == 2753915549 then -- Blox s1
     repeat wait() until game:IsLoaded()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bloxv2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NYX8HUB/premium/refs/heads/main/script"))()
 elseif PlaceId == 4442272183 then -- Blox s2
     repeat wait() until game:IsLoaded()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bloxv2.lua"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NYX8HUB/premium/refs/heads/main/script"))()
 elseif PlaceId == 7449423635 then -- Blox s3
     repeat wait() until game:IsLoaded()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/bloxv2.lua"))()
-elseif PlaceId == 16044264830 then -- Vazio
-    local syn = getgenv().syn
-    getgenv().syn = false
-    loadstring(game:HttpGet("b"))()
-    getgenv().syn = syn
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NYX8HUB/premium/refs/heads/main/script"))()
 end
-
--- ui loader/lib loader 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/2133121233/Hyper_Hub/main/uilib.txt"))()
-wait(10)
-toclipboard(https://dsc.gg/hyperscript)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "Nyx Hub X Hyper Hub", -- Required
+	Text = "Thx Trigon"
+})
+if getgenv().syn then
+getgenv().syn = syn
+end
